@@ -17,7 +17,8 @@ elif operation == '*' :
 elif operation == "/" :
     print("first_number / second_number")
 
-else : print(error)
+else : 
+    print('error')
 
 #part 3 
 bus_capacity = 20
@@ -26,6 +27,6 @@ empty_seats = bus_capacity - people_on_the_bus
 if empty_seats >= people_on_the_bus : 
     print(f'there are {empty_seats} empty seats') 
 else :
-print('the bus is full')
+    print('the bus is full')
 
 
