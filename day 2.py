@@ -12,13 +12,13 @@ elif operation== "-" :
     print(first_number - secound_number)
 
 elif operation == '*' :
-    print ==("first_number * second_number")
-
+    print("first_number * second_number")
 
 elif operation == "/" :
     print("first_number / second_number")
 
-else : print("error")
+else : 
+    print('error')
 
 #part 3 
 bus_capacity = 20
@@ -26,7 +26,7 @@ people_on_the_bus = int(input('how many people are on the bus ?'))
 empty_seats = bus_capacity - people_on_the_bus
 if empty_seats >= people_on_the_bus : 
     print(f'there are {empty_seats} empty seats') 
-    elif empty_seats <= people_on_the_bus
-print('the bus is full')
+else :
+    print('the bus is full')
 
 
